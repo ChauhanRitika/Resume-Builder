@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../static/images/logo.png";
 import {connect} from 'react-redux';
 import * as authActions from '../../actions/authActions';
 import { isLoaded, isEmpty } from "react-redux-firebase";
@@ -32,7 +31,7 @@ const Header = (props) => {
   <header className="header">
   <nav className="nav">
       <a href="/" className="holder-logo">
-        <img className='logo' src={logo}></img>
+        <p className="logoDesign">Resume Builder</p>
       </a> 
         <div className="header-links full-height">
 

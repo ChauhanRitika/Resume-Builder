@@ -31,7 +31,7 @@ import { useHistory } from "react-router";
       <>
     {/* To save from multiple request */}
       {!isLoaded(props.auth)?<></>:<>
-        {props.authMine.loading?<h4 style={{marginTop:'10%',height:'52vh'}}>Patiently Wait...we are resgistering you in</h4>:
+        {props.authMine.loading?<h4 className="forLoading">Patiently Wait...we are resgistering you in</h4>:
           <div className="container med contact">
             <div className="section funnel-section">
                 <div className="form-card">
