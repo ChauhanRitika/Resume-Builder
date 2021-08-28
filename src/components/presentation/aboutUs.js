@@ -12,7 +12,7 @@ const AboutUs = () => {
                         Do you have any comments or questions? Our team will be happy to assist you. Send us a message.
                     </p>
                     <h2 className="email text-large">
-                        support@pepcoding.com
+                        support@chauhanRitika.com
                     </h2>
                     <p className="happy-to-help">
                         We are here to answer any questions regarding our resume generator, do not hesitate to contact us for
